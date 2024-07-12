@@ -1,0 +1,90 @@
+.amber {
+  background-color: #f59e0b;
+  padding: 16px;
+  border-radius: 50%;
+}
+
+.blue {
+  background-color: #0b69ff;
+  padding: 16px;
+  border-radius: 50%;
+}
+
+.orange {
+  background-color: #f97316;
+  padding: 16px;
+  border-radius: 50%;
+}
+
+.emerald {
+  background-color: #10b981;
+  padding: 16px;
+  border-radius: 50%;
+}
+
+.teal {
+  background-color: #14b8a6;
+  padding: 16px;
+  border-radius: 50%;
+}
+
+.red {
+  background-color: #b91c1c;
+  padding: 16px;
+  border-radius: 50%;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+  padding: 16px;
+  border-radius: 50%;
+}
+
+/* Write your CSS here */
+.profile-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.pic-container {
+  padding: 16px;
+}
+.list-container {
+  display: flex;
+}
+.like-del-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.like-container {
+  display: flex;
+  align-items: center;
+}
+.profile-el {
+  color: white;
+  border-radius: 50%;
+  padding: 16px;
+  margin-right: 16px;
+}
+.inner-heading {
+  font-family: 'Roboto';
+  margin-right: 16px;
+}
+.description-el {
+  color: #475569;
+  font-family: 'Roboto';
+  margin-top: 0;
+}
+.like-btn {
+  background-color: transparent;
+  border: 0;
+}
+.delete-img {
+  height: 25px;
+  border: 0;
+  background-color: transparent;
+}
+.liked {
+  color: #0284c7;
+}
